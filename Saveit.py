@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API info to get from my.telegram.org
-api_id = os.getenv('API_ID')
-api_hash = os.getenv('API_HASH')
-handler = os.getenv('HANDLER')
+api_id = os.getenv('37028884')
+api_hash = os.getenv('c1c19e17f784d0cb705ea67e4a6e48b4')
+handler = os.getenv('+249915796894')
 
 client = TelegramClient('save', api_id, api_hash)
 your_user_id = None
